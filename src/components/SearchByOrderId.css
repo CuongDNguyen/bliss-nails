@@ -1,0 +1,9 @@
+.search-order-id-div {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2em;
+}
+
+.search-order-id-label, input, button {
+    margin: 10px;
+}
