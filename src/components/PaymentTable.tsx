@@ -1,7 +1,10 @@
 import PaymentRow from "./PaymentRow";
 import './PaymentTable.css';
-
+import {getAllCountries} from '../data/restFunctions'
 const PaymentTable = () => {
+
+    getAllCountries();
+
     return <table className="payment-table">
         <thead className="payment-table-head">
         <th>id</th>
